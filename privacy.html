@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>プライバシーポリシー | ミチシルベ</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif; background:#E7EAEF; color:#14213D; margin:0; padding:0; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .updated { color:#8A93A6; font-size: 13px; margin-bottom: 28px; }
+  h2 { font-size: 16px; margin-top: 28px; color:#2F3C7E; }
+  p, li { font-size: 14px; line-height: 1.8; color:#3A4256; }
+  table { width:100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th, td { border: 1px solid #E2E5EA; padding: 8px 10px; text-align: left; }
+  th { background:#F5F6F9; }
+  .card { background:#FFFFFF; border-radius: 20px; padding: 28px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>プライバシーポリシー</h1>
+      <p class="updated">対象: ミチシルベ(営業マン向けパイプライン管理アプリ) / 最終更新日: 2026年7月27日</p>
+
+      <h2>1. 収集する情報</h2>
+      <p><strong>(1) アカウント情報</strong><br>
+      本アプリの利用にはメールアドレスとパスワードによるアカウント登録が必要です。認証はSupabase Authを通じて行われ、パスワードは弊社では平文で保持しません。</p>
+      <p><strong>(2) 利用者が登録する業務データ</strong><br>
+      利用者(営業担当者)が自身の業務のために入力する、取引先・見込み客に関する情報(会社名・担当者名・電話番号・住所・商談内容・金額・メモ・導入商品・売上実績)です。これらのデータは入力した利用者のアカウントに紐づいて保存され、他の利用者からは閲覧できません(アカウントごとに完全に分離されています)。</p>
+      <p><strong>(3) 位置情報</strong><br>
+      地図機能で現在地を表示するため、端末の位置情報(GPS)の利用許可を求めることがあります。取得した位置情報は地図表示・経路案内のためにのみ使用し、サーバーには保存しません。</p>
+      <p><strong>(4) 住所の位置情報変換(ジオコーディング)</strong><br>
+      利用者が入力した取引先の住所は、地図上に表示するためGoogle Maps Platform(Geocoding API)に送信され、緯度・経度に変換されます。</p>
+
+      <h2>2. 情報の利用目的</h2>
+      <ul>
+        <li>商談・顧客管理機能の提供</li>
+        <li>地図上での取引先表示、訪問ルートの案内</li>
+        <li>アカウント認証・不正利用防止</li>
+      </ul>
+
+      <h2>3. 第三者への提供・委託</h2>
+      <p>以下の外部サービスを利用しており、必要な範囲でデータが送信されます。</p>
+      <table>
+        <tr><th>サービス</th><th>用途</th><th>送信される情報</th></tr>
+        <tr><td>Supabase</td><td>データベース・認証基盤</td><td>アカウント情報、業務データ全般</td></tr>
+        <tr><td>Google Maps Platform</td><td>地図表示・ジオコーディング・経路案内</td><td>取引先の住所、経路計算用の緯度経度</td></tr>
+        <tr><td>Vercel</td><td>アプリのホスティング</td><td>(通信の中継のみ、データの保存は行わない)</td></tr>
+      </table>
+      <p>これら以外の第三者への販売・共有は行いません。</p>
+
+      <h2>4. データの保存期間</h2>
+      <p>アカウントが有効である間、データは保存されます。アカウント削除を希望する場合は下記お問い合わせ先までご連絡ください。</p>
+
+      <h2>5. 利用者の権利</h2>
+      <p>利用者は、自身が登録したデータの閲覧・修正・削除をアプリ内でいつでも行うことができます。アカウントの削除やデータの完全消去を希望する場合は下記お問い合わせ先までご連絡ください。</p>
+
+      <h2>6. トラッキング・広告</h2>
+      <p>本アプリは広告を表示せず、広告目的でのトラッキングも行いません。</p>
+
+      <h2>7. お問い合わせ先</h2>
+      <p>[事業者名・連絡先メールアドレスをここに記載してください]</p>
+    </div>
+  </div>
+</body>
+</html>
